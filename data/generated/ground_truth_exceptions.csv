@@ -1,0 +1,201 @@
+order_id,expected_exception_type,expected_root_cause,expected_escalation,scenario_notes
+ORD-000118,DELAYED_SHIPMENT,carrier_handover_not_confirmed,false,Shipment expected by 2026-10-01 11:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. LABEL_CREATED is present but CARRIER_ACCEPTED is missing.
+ORD-000154,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-10-01 06:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000197,DELAYED_SHIPMENT,carrier_handover_not_confirmed,false,Shipment expected by 2026-10-01 10:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. LABEL_CREATED is present but CARRIER_ACCEPTED is missing.
+ORD-000263,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 06:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000275,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 05:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000321,DELAYED_SHIPMENT,carrier_exception_event,false,Shipment expected by 2026-10-01 00:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier timeline includes an EXCEPTION event.
+ORD-000405,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-10-01 05:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000419,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 02:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000448,DELAYED_SHIPMENT,carrier_handover_not_confirmed,false,Shipment expected by 2026-09-30 19:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. LABEL_CREATED is present but CARRIER_ACCEPTED is missing.
+ORD-000524,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 22:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000527,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 00:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000559,DELAYED_SHIPMENT,carrier_handover_not_confirmed,false,Shipment expected by 2026-09-30 10:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. LABEL_CREATED is present but CARRIER_ACCEPTED is missing.
+ORD-000587,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 18:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000588,DELAYED_SHIPMENT,carrier_handover_not_confirmed,false,Shipment expected by 2026-10-01 05:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. LABEL_CREATED is present but CARRIER_ACCEPTED is missing.
+ORD-000612,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 19:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000615,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-10-01 08:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000692,DELAYED_SHIPMENT,carrier_exception_event,false,Shipment expected by 2026-09-30 18:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier timeline includes an EXCEPTION event.
+ORD-000770,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-10-01 00:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000939,DELAYED_SHIPMENT,carrier_transit_delay,false,"Shipment expected by 2026-09-30 14:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier accepted the shipment, but it remains in transit past the expected delivery."
+ORD-000996,DELAYED_SHIPMENT,carrier_exception_event,false,Shipment expected by 2026-09-30 02:00:00+00:00; not delivered by evaluation time 2026-10-02 00:00:00+00:00. Carrier timeline includes an EXCEPTION event.
+ORD-000087,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-28 09:47:41+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000101,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-27 08:09:53+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000105,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-30 01:51:37+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000118,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-30 10:44:27+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000139,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-30 12:00:00+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000192,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-29 07:55:50+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000195,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-26 03:41:56+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000197,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-27 13:16:48+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000285,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-27 02:44:11+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000363,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-25 17:04:48+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000403,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-28 22:10:44+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000448,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-25 07:19:13+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000559,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-28 11:31:36+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000588,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-26 07:56:10+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000703,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-26 08:20:08+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000729,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-28 11:40:23+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000811,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-30 00:58:19+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000826,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-26 08:59:51+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000857,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-28 01:02:51+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000913,MISSING_CARRIER_EVENT,carrier_acceptance_scan_missing,false,LABEL_CREATED at 2026-09-26 10:18:49+00:00 with no CARRIER_ACCEPTED event more than 24 hours later.
+ORD-000011,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000030,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000052,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.99%, below the 5% rule."
+ORD-000055,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000081,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000105,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000118,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000129,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000150,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000194,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000196,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000213,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.01%, below the 5% rule."
+ORD-000218,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000234,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000236,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000241,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000244,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000251,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000270,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000277,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000278,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000304,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000307,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000318,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000321,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000348,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000353,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000365,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000386,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000411,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000416,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000429,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000438,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000459,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000483,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000486,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.99%, below the 5% rule."
+ORD-000497,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000536,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000558,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000560,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000564,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000578,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.99%, below the 5% rule."
+ORD-000586,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000592,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000603,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000612,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000613,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000620,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000631,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000640,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000661,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000662,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000673,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000684,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000693,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000695,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000733,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000748,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000770,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000771,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000775,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000803,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000804,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000836,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000843,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000859,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000869,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000888,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000896,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000900,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000904,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000908,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000912,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 1.00%, below the 5% rule."
+ORD-000918,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000929,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000941,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.00%, below the 5% rule."
+ORD-000973,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.01%, below the 5% rule."
+ORD-000981,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 4.00%, below the 5% rule."
+ORD-000989,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 2.01%, below the 5% rule."
+ORD-000994,LOW_MARGIN,high_product_cost,true,"Injected product-cost increase leaves order margin at 3.00%, below the 5% rule."
+ORD-000011,BILLING_MISMATCH,overbilled_order,true,Billed amount 154.08 differs from expected amount 144.50 by 9.58 EUR.
+ORD-000040,BILLING_MISMATCH,overbilled_order,true,Billed amount 244.91 differs from expected amount 233.64 by 11.27 EUR.
+ORD-000055,BILLING_MISMATCH,underbilled_order,true,Billed amount 37.32 differs from expected amount 55.02 by 17.70 EUR.
+ORD-000075,BILLING_MISMATCH,overbilled_order,true,Billed amount 215.26 differs from expected amount 201.61 by 13.65 EUR.
+ORD-000077,BILLING_MISMATCH,underbilled_order,true,Billed amount 256.87 differs from expected amount 277.42 by 20.55 EUR.
+ORD-000094,BILLING_MISMATCH,overbilled_order,true,Billed amount 246.89 differs from expected amount 242.49 by 4.40 EUR.
+ORD-000136,BILLING_MISMATCH,overbilled_order,true,Billed amount 245.50 differs from expected amount 233.43 by 12.07 EUR.
+ORD-000143,BILLING_MISMATCH,underbilled_order,true,Billed amount 112.46 differs from expected amount 114.33 by 1.87 EUR.
+ORD-000147,BILLING_MISMATCH,underbilled_order,true,Billed amount 152.34 differs from expected amount 174.68 by 22.34 EUR.
+ORD-000181,BILLING_MISMATCH,overbilled_order,true,Billed amount 112.64 differs from expected amount 91.14 by 21.50 EUR.
+ORD-000186,BILLING_MISMATCH,underbilled_order,true,Billed amount 57.82 differs from expected amount 67.36 by 9.54 EUR.
+ORD-000194,BILLING_MISMATCH,overbilled_order,true,Billed amount 201.24 differs from expected amount 185.60 by 15.64 EUR.
+ORD-000212,BILLING_MISMATCH,underbilled_order,true,Billed amount 186.05 differs from expected amount 194.46 by 8.41 EUR.
+ORD-000230,BILLING_MISMATCH,underbilled_order,true,Billed amount 113.63 differs from expected amount 127.98 by 14.35 EUR.
+ORD-000236,BILLING_MISMATCH,overbilled_order,true,Billed amount 296.33 differs from expected amount 278.20 by 18.13 EUR.
+ORD-000268,BILLING_MISMATCH,underbilled_order,true,Billed amount 235.32 differs from expected amount 242.14 by 6.82 EUR.
+ORD-000273,BILLING_MISMATCH,underbilled_order,true,Billed amount 213.51 differs from expected amount 220.44 by 6.93 EUR.
+ORD-000290,BILLING_MISMATCH,underbilled_order,true,Billed amount 115.20 differs from expected amount 122.37 by 7.17 EUR.
+ORD-000299,BILLING_MISMATCH,overbilled_order,true,Billed amount 294.05 differs from expected amount 270.42 by 23.63 EUR.
+ORD-000301,BILLING_MISMATCH,underbilled_order,true,Billed amount 130.15 differs from expected amount 151.47 by 21.32 EUR.
+ORD-000302,BILLING_MISMATCH,underbilled_order,true,Billed amount 171.41 differs from expected amount 190.12 by 18.71 EUR.
+ORD-000307,BILLING_MISMATCH,underbilled_order,true,Billed amount 59.66 differs from expected amount 75.82 by 16.16 EUR.
+ORD-000312,BILLING_MISMATCH,underbilled_order,true,Billed amount 82.83 differs from expected amount 106.57 by 23.74 EUR.
+ORD-000324,BILLING_MISMATCH,underbilled_order,true,Billed amount 192.95 differs from expected amount 217.46 by 24.51 EUR.
+ORD-000325,BILLING_MISMATCH,underbilled_order,true,Billed amount 170.76 differs from expected amount 181.79 by 11.03 EUR.
+ORD-000333,BILLING_MISMATCH,underbilled_order,true,Billed amount 82.69 differs from expected amount 92.31 by 9.62 EUR.
+ORD-000340,BILLING_MISMATCH,overbilled_order,true,Billed amount 122.43 differs from expected amount 120.93 by 1.50 EUR.
+ORD-000341,BILLING_MISMATCH,overbilled_order,true,Billed amount 42.87 differs from expected amount 34.79 by 8.08 EUR.
+ORD-000342,BILLING_MISMATCH,overbilled_order,true,Billed amount 179.74 differs from expected amount 174.63 by 5.11 EUR.
+ORD-000365,BILLING_MISMATCH,underbilled_order,true,Billed amount 207.97 differs from expected amount 211.32 by 3.35 EUR.
+ORD-000367,BILLING_MISMATCH,underbilled_order,true,Billed amount 115.07 differs from expected amount 130.56 by 15.49 EUR.
+ORD-000368,BILLING_MISMATCH,overbilled_order,true,Billed amount 142.43 differs from expected amount 135.35 by 7.08 EUR.
+ORD-000374,BILLING_MISMATCH,underbilled_order,true,Billed amount 57.87 differs from expected amount 82.84 by 24.97 EUR.
+ORD-000377,BILLING_MISMATCH,overbilled_order,true,Billed amount 53.94 differs from expected amount 38.33 by 15.61 EUR.
+ORD-000397,BILLING_MISMATCH,underbilled_order,true,Billed amount 280.25 differs from expected amount 287.16 by 6.91 EUR.
+ORD-000407,BILLING_MISMATCH,overbilled_order,true,Billed amount 175.49 differs from expected amount 150.89 by 24.60 EUR.
+ORD-000412,BILLING_MISMATCH,underbilled_order,true,Billed amount 146.42 differs from expected amount 163.52 by 17.10 EUR.
+ORD-000424,BILLING_MISMATCH,underbilled_order,true,Billed amount 71.30 differs from expected amount 81.25 by 9.95 EUR.
+ORD-000428,BILLING_MISMATCH,overbilled_order,true,Billed amount 210.22 differs from expected amount 205.30 by 4.92 EUR.
+ORD-000429,BILLING_MISMATCH,overbilled_order,true,Billed amount 111.49 differs from expected amount 107.73 by 3.76 EUR.
+ORD-000451,BILLING_MISMATCH,underbilled_order,true,Billed amount 46.69 differs from expected amount 64.88 by 18.19 EUR.
+ORD-000460,BILLING_MISMATCH,overbilled_order,true,Billed amount 288.21 differs from expected amount 269.88 by 18.33 EUR.
+ORD-000469,BILLING_MISMATCH,overbilled_order,true,Billed amount 123.35 differs from expected amount 109.07 by 14.28 EUR.
+ORD-000477,BILLING_MISMATCH,underbilled_order,true,Billed amount 118.52 differs from expected amount 140.83 by 22.31 EUR.
+ORD-000503,BILLING_MISMATCH,overbilled_order,true,Billed amount 106.19 differs from expected amount 91.71 by 14.48 EUR.
+ORD-000507,BILLING_MISMATCH,overbilled_order,true,Billed amount 268.93 differs from expected amount 261.81 by 7.12 EUR.
+ORD-000540,BILLING_MISMATCH,overbilled_order,true,Billed amount 260.93 differs from expected amount 243.79 by 17.14 EUR.
+ORD-000549,BILLING_MISMATCH,underbilled_order,true,Billed amount 250.13 differs from expected amount 263.65 by 13.52 EUR.
+ORD-000561,BILLING_MISMATCH,underbilled_order,true,Billed amount 128.64 differs from expected amount 143.31 by 14.67 EUR.
+ORD-000574,BILLING_MISMATCH,underbilled_order,true,Billed amount 67.39 differs from expected amount 83.69 by 16.30 EUR.
+ORD-000584,BILLING_MISMATCH,underbilled_order,true,Billed amount 54.13 differs from expected amount 63.79 by 9.66 EUR.
+ORD-000608,BILLING_MISMATCH,underbilled_order,true,Billed amount 172.67 differs from expected amount 185.61 by 12.94 EUR.
+ORD-000619,BILLING_MISMATCH,overbilled_order,true,Billed amount 63.51 differs from expected amount 55.26 by 8.25 EUR.
+ORD-000635,BILLING_MISMATCH,overbilled_order,true,Billed amount 230.98 differs from expected amount 212.75 by 18.23 EUR.
+ORD-000649,BILLING_MISMATCH,overbilled_order,true,Billed amount 262.02 differs from expected amount 250.22 by 11.80 EUR.
+ORD-000676,BILLING_MISMATCH,overbilled_order,true,Billed amount 157.61 differs from expected amount 141.00 by 16.61 EUR.
+ORD-000686,BILLING_MISMATCH,overbilled_order,true,Billed amount 84.17 differs from expected amount 74.45 by 9.72 EUR.
+ORD-000711,BILLING_MISMATCH,underbilled_order,true,Billed amount 73.92 differs from expected amount 85.58 by 11.66 EUR.
+ORD-000735,BILLING_MISMATCH,overbilled_order,true,Billed amount 140.07 differs from expected amount 123.40 by 16.67 EUR.
+ORD-000740,BILLING_MISMATCH,overbilled_order,true,Billed amount 266.34 differs from expected amount 261.29 by 5.05 EUR.
+ORD-000744,BILLING_MISMATCH,underbilled_order,true,Billed amount 125.87 differs from expected amount 138.95 by 13.08 EUR.
+ORD-000748,BILLING_MISMATCH,overbilled_order,true,Billed amount 173.87 differs from expected amount 165.16 by 8.71 EUR.
+ORD-000769,BILLING_MISMATCH,overbilled_order,true,Billed amount 241.09 differs from expected amount 229.18 by 11.91 EUR.
+ORD-000775,BILLING_MISMATCH,underbilled_order,true,Billed amount 130.35 differs from expected amount 137.31 by 6.96 EUR.
+ORD-000796,BILLING_MISMATCH,underbilled_order,true,Billed amount 107.02 differs from expected amount 118.85 by 11.83 EUR.
+ORD-000810,BILLING_MISMATCH,overbilled_order,true,Billed amount 52.92 differs from expected amount 43.42 by 9.50 EUR.
+ORD-000816,BILLING_MISMATCH,underbilled_order,true,Billed amount 85.88 differs from expected amount 89.37 by 3.49 EUR.
+ORD-000833,BILLING_MISMATCH,overbilled_order,true,Billed amount 39.30 differs from expected amount 28.53 by 10.77 EUR.
+ORD-000837,BILLING_MISMATCH,overbilled_order,true,Billed amount 106.07 differs from expected amount 92.87 by 13.20 EUR.
+ORD-000838,BILLING_MISMATCH,underbilled_order,true,Billed amount 158.69 differs from expected amount 163.89 by 5.20 EUR.
+ORD-000842,BILLING_MISMATCH,underbilled_order,true,Billed amount 25.04 differs from expected amount 32.81 by 7.77 EUR.
+ORD-000845,BILLING_MISMATCH,overbilled_order,true,Billed amount 205.86 differs from expected amount 184.00 by 21.86 EUR.
+ORD-000876,BILLING_MISMATCH,overbilled_order,true,Billed amount 155.22 differs from expected amount 131.08 by 24.14 EUR.
+ORD-000889,BILLING_MISMATCH,underbilled_order,true,Billed amount 218.39 differs from expected amount 220.90 by 2.51 EUR.
+ORD-000900,BILLING_MISMATCH,overbilled_order,true,Billed amount 82.47 differs from expected amount 72.05 by 10.42 EUR.
+ORD-000938,BILLING_MISMATCH,underbilled_order,true,Billed amount 89.41 differs from expected amount 103.62 by 14.21 EUR.
+ORD-000971,BILLING_MISMATCH,overbilled_order,true,Billed amount 38.22 differs from expected amount 22.31 by 15.91 EUR.
+ORD-000985,BILLING_MISMATCH,overbilled_order,true,Billed amount 156.87 differs from expected amount 146.87 by 10.00 EUR.
+ORD-000992,BILLING_MISMATCH,overbilled_order,true,Billed amount 49.20 differs from expected amount 34.44 by 14.76 EUR.
+ORD-000998,BILLING_MISMATCH,underbilled_order,true,Billed amount 24.21 differs from expected amount 43.11 by 18.90 EUR.

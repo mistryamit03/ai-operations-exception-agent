@@ -16,7 +16,8 @@ venv/
 Thumbs.db
 
 # Local/generated data
-data/generated/
+data/generated/*
+!data/generated/*.csv
 data/raw/
 
 # Logs
